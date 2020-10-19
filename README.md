@@ -20,6 +20,9 @@ Tested on Debian and Windows. The goal of the project was to practice game devel
 * Level design
 * Mouse hide during gameplay
 * Lives system
+* More decorated menu scene
+* Win Screen
+* Scene Loader reorders win screen
 
 
 # Screenshots
