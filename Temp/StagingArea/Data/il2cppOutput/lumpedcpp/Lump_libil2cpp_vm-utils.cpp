@@ -1,0 +1,6 @@
+#include "il2cpp-config.h"
+#include "/home/m00ns7ruck/Unity/Hub/Editor/2019.4.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/BlobReader.cpp"
+#include "/home/m00ns7ruck/Unity/Hub/Editor/2019.4.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/Debugger.cpp"
+#include "/home/m00ns7ruck/Unity/Hub/Editor/2019.4.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/NativeDelegateMethodCache.cpp"
+#include "/home/m00ns7ruck/Unity/Hub/Editor/2019.4.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/NativeSymbol.cpp"
+#include "/home/m00ns7ruck/Unity/Hub/Editor/2019.4.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/VmStringUtils.cpp"

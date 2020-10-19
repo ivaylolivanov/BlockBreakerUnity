@@ -6,7 +6,19 @@ using UnityEngine.SceneManagement;
 public class LoseCollider : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision) {
-        SceneManager.LoadScene("GameOver");
-        Cursor.visible = true;
+        GameStatus currentStatus = FindObjectOfType<GameStatus>();
+
+        if(currentStatus.Resurect()) {
+            LoadCurrentScene();
+        }
+        else {
+            SceneManager.LoadScene("GameOver");
+            Cursor.visible = true;
+        }
+    }
+
+    private void LoadCurrentScene() {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }

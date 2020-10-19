@@ -10,6 +10,7 @@ public class GameStatus : MonoBehaviour
     [SerializeField] public int pointsPerBlockDestroyed = 30;
     [SerializeField] public TextMeshProUGUI scoreText;
     [SerializeField] public bool autoplay = false;
+    [SerializeField] public int liveCost = 300;
 
     // State variables
     private int currentScore = 0;
@@ -37,6 +38,18 @@ public class GameStatus : MonoBehaviour
 
     public bool IsAutoplayOn() {
         return autoplay;
+    }
+
+    public bool Resurect() {
+        bool result = false;
+
+        if(currentScore >= liveCost) {
+            currentScore -= liveCost;
+            DisplayScore();
+            result = true;
+        }
+
+        return result;
     }
 
     private void Start() {

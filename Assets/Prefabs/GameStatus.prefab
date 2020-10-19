@@ -66,8 +66,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1234567890
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 437b2bbd3179393e48156265f2943218, type: 2}
-  m_sharedMaterial: {fileID: 7921596367423554115, guid: 437b2bbd3179393e48156265f2943218,
+  m_fontAsset: {fileID: 11400000, guid: 8732bc2b47ce809a8b37c849e429bdbd, type: 2}
+  m_sharedMaterial: {fileID: 5953655891570619648, guid: 8732bc2b47ce809a8b37c849e429bdbd,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -280,3 +280,4 @@ MonoBehaviour:
   gameSpeed: 1
   pointsPerBlockDestroyed: 30
   scoreText: {fileID: 241929138}
+  autoplay: 0
