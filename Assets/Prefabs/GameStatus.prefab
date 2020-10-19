@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278191615
+  m_fontColor: {r: 1, g: 0.018101081, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -192,7 +192,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &1515492119
 MonoBehaviour:
@@ -281,3 +281,4 @@ MonoBehaviour:
   pointsPerBlockDestroyed: 30
   scoreText: {fileID: 241929138}
   autoplay: 0
+  liveCost: 300

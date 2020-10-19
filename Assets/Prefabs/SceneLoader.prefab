@@ -43,3 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a3eb736ecbc93e439d186f2e72e628b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winScreenName: WinScreen
+  winScreenScorePosX: 965
+  winScreenScorePosY: 575
