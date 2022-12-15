@@ -1581,4 +1581,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level11.unity
   - Assets/Scenes/WinScreen.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: /home/m00ns7ruck/Downloads/BlockBreakerLinux/BlockBreaker.x86_64
+  playerPath: /home/m00ns7ruck/Projects/unity/block-breaker/Builds/BlockBreaker.x86_64
